@@ -18,6 +18,7 @@ export default function ProductShowcasePage({ slug }) {
       <NaturalLickDetailsTabs
         attributes={data.attributes}
         descriptionParagraphs={data.descriptionParagraphs}
+        referenceImages={data.referenceImages || []}
       />
     </main>
   );

@@ -3,7 +3,7 @@ export const PRODUCT_SHOWCASE_DATA = {
     hero: {
       title: "Himalayan Salt Lick",
       subtitle: "(Natural)",
-      image: "/products/natural.png",
+      image: "/North%20himaliyan%20salt/natural/idrees.png",
       description:
         "Natural Himalayan Lick Salt is a 100% pure, unrefined mineral salt block sourced from the world-famous Himalayan Salt Range in Pakistan. This premium pink rock salt is rich in essential trace minerals and provides a natural, chemical-free mineral supplement for livestock and farm animals.",
     },
@@ -35,12 +35,18 @@ export const PRODUCT_SHOWCASE_DATA = {
       "Give Your Livestock the Minerals They Need",
       "Support better growth, improved productivity, and overall animal health with our Himalayan Salt Licks for Livestock. A simple, natural, and effective way to ensure your animals receive essential minerals daily. Order now and enhance your farm's productivity naturally!",
     ],
+    referenceImages: [
+      "/North%20himaliyan%20salt/natural/idrees%20lamp.png",
+      "/North%20himaliyan%20salt/natural/pink%20salt%20idrees.png",
+      "/North%20himaliyan%20salt/natural/room%20idrees.png",
+      "/North%20himaliyan%20salt/natural/salt%20tiles%20idrees.png",
+    ],
   },
   "lick-salt-compressed": {
     hero: {
       title: "Himalayan Salt Lick",
       subtitle: "(Compressed)",
-      image: "/products/compressed.png",
+      image: "/North%20himaliyan%20salt/compressed/compressed.png",
       description:
         "Himalayan Lick Salt (Compressed) is a natural mineral salt block made from pure Himalayan pink salt. Rich in essential minerals, because of its compressed shape it is easy to consume. It provides a long-lasting and chemical-free mineral supplement for livestock such as horses, cattle, goats, and sheep.",
     },
@@ -88,12 +94,16 @@ export const PRODUCT_SHOWCASE_DATA = {
       "Give Your Livestock the Minerals They Need",
       "Support better growth, improved productivity, and overall animal health with our Himalayan Salt Licks for Livestock. A simple, natural, and effective way to ensure your animals receive essential minerals daily. Order now and enhance your farm's productivity naturally!",
     ],
+    referenceImages: [
+      "/North%20himaliyan%20salt/compressed/Gemini_Generated_Image_trecwutrecwutrec.png",
+      "/North%20himaliyan%20salt/compressed/WhatsApp%20Image%202026-03-11%20at%2012.47.50%20PM.jpeg",
+    ],
   },
   "salt-tiles": {
     hero: {
       title: "Himalayan Salt",
       subtitle: "Tiles",
-      image: "/products/salt tiles.png",
+      image: "/North%20himaliyan%20salt/tiles/tiles.png",
       description:
         "Natural Himalayan Salt Tiles sourced from the Himalayan mountains. These premium salt tiles are widely used for spa walls, salt therapy rooms, wellness centers, and interior decoration. They create a warm, relaxing atmosphere while adding a unique and luxurious touch to modern spaces.",
     },
@@ -136,12 +146,17 @@ export const PRODUCT_SHOWCASE_DATA = {
       "Reliable Batch Consistency",
       "Strict quality control ensures uniform color, size, and composition, delivering consistent performance and a cohesive look in every installation.",
     ],
+    referenceImages: [
+      "/North%20himaliyan%20salt/tiles/Image_fx%20-%202026-03-19T153211.790.png",
+      "/North%20himaliyan%20salt/tiles/Image_fx%20-%202026-03-19T153510.725.png",
+      "/North%20himaliyan%20salt/tiles/Image_fx%20-%202026-03-19T153517.819.png",
+    ],
   },
   "cooking-plates": {
     hero: {
       title: "Himalayan Salt",
       subtitle: "Cooking Plate",
-      image: "/products/plates.jpeg",
+      image: "/North%20himaliyan%20salt/cooking%20plate/cooking%20plate.png",
       description:
         "Himalayan cooking plates are natural gourmet salt slabs made from pure Himalayan pink salt. Perfect for grilling, cooking, chilling, and serving food, these plates add a subtle mineral flavor to dishes while providing a unique presentation.",
     },
@@ -170,12 +185,15 @@ export const PRODUCT_SHOWCASE_DATA = {
       "Unleash Natural Flavors: The natural Himalayan salt block infuses ingredients with authentic mineral flavor.",
       "Versatile Cooking Companion: From grilling and searing to chilling and presenting, this block adapts to many cooking techniques and serving styles.",
     ],
+    referenceImages: [
+      "/North%20himaliyan%20salt/cooking%20plate/Gemini_Generated_Image_17coe517coe517co.png",
+    ],
   },
   "pink-salt": {
     hero: {
       title: "Himalayan Edible",
       subtitle: "Salt",
-      image: "/products/pink.jpeg",
+      image: "/North%20himaliyan%20salt/pink%20salt/salt.png",
       description:
         "Himalayan edible salt is a pure and natural mineral-rich salt sourced from the Himalayan region of Pakistan. Known for its natural pink color and essential trace minerals, it is widely used for cooking, seasoning, and healthy food preparation.",
     },
@@ -205,6 +223,44 @@ export const PRODUCT_SHOWCASE_DATA = {
       "Ideal for home kitchens, restaurants, and foodservice applications for seasoning, cooking, and finishing.",
       "Consistent Quality",
       "Processed and packed under strict quality standards to maintain purity, color consistency, and food safety.",
+    ],
+    referenceImages: [
+      "/North%20himaliyan%20salt/pink%20salt/Image_fx%20-%202026-03-19T153835.734.png",
+      "/North%20himaliyan%20salt/pink%20salt/Image_fx%20-%202026-03-19T153837.644.png",
+    ],
+  },
+  "salt-lamps": {
+    hero: {
+      title: "Himalayan Salt",
+      subtitle: "Lamps",
+      image: "/North%20himaliyan%20salt/lamp/lamp.png",
+      description:
+        "Handcrafted Himalayan Salt Lamps made from natural pink salt crystals that emit a warm, soothing glow. These decorative lamps are popular for home decor, spas, wellness centers, and relaxation spaces.",
+    },
+    attributes: [
+      ["Material", "Natural Himalayan Salt", "Product Type", "Salt Lamp"],
+      ["Style", "Handcrafted", "Shape", "Natural / Custom"],
+      ["Place of Origin", "Pakistan", "Brand Name", "North Himalayan Traders"],
+      ["Color", "Pink / Orange", "Use", "Home Decor / Wellness"],
+      ["Feature", "Warm Ambient Glow", "Power", "Electrical Fitting"],
+      ["Application", "Home, Office, Spa", "Packaging", "Secure Export Packing"],
+      ["MOQ", "As required", "Delivery Time", "15-25 Days"],
+      ["Quality", "Premium", "Certification", "Available on request"],
+    ],
+    descriptionParagraphs: [
+      "Product Description",
+      "Himalayan salt lamps are crafted from genuine natural pink salt crystals sourced from Pakistan. They produce a warm and calming glow that enhances interior ambiance and creates a relaxing environment.",
+      "Natural Decorative Lighting",
+      "Each lamp has a unique crystal texture and color tone, making every piece distinct for homes, offices, wellness centers, and spas.",
+      "Premium Handcrafted Finish",
+      "Our lamps are carefully shaped and assembled with quality fittings for reliable use and elegant presentation.",
+      "Ideal for Global Retail Supply",
+      "Suitable for importers, retailers, and distributors looking for premium lifestyle and decor products.",
+    ],
+    referenceImages: [
+      "/North%20himaliyan%20salt/lamp/Image_fx%20(10).png",
+      "/North%20himaliyan%20salt/lamp/Image_fx%20(41).png",
+      "/North%20himaliyan%20salt/lamp/Image_fx%20(42).png",
     ],
   },
 };

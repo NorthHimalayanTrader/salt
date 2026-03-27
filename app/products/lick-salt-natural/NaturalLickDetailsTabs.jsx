@@ -1,9 +1,10 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
-const TABS = ["attributes", "reviews", "description"];
+const TABS = ["attributes", "reviews", "description", "reference images"];
 
 const ATTRIBUTES = [
   ["Material", "Organic Material", "Product Type", "Animal Licking Rock Salt"],
@@ -65,6 +66,7 @@ export default function NaturalLickDetailsTabs({
   attributes = ATTRIBUTES,
   descriptionParagraphs = DEFAULT_DESCRIPTION_PARAGRAPHS,
   reviews = REVIEWS,
+  referenceImages = [],
 }) {
   const [activeTab, setActiveTab] = useState("attributes");
   const mobileAttributes = (attributes || []).flatMap((row) => [
@@ -242,6 +244,41 @@ export default function NaturalLickDetailsTabs({
                   );
                 })}
               </div>
+            </motion.div>
+          ) : null}
+
+          {activeTab === "reference images" ? (
+            <motion.div
+              key="reference-images"
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -12 }}
+              transition={{ duration: 0.35 }}
+              className="mt-6"
+            >
+              {referenceImages.length ? (
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  {referenceImages.map((src, idx) => (
+                    <div
+                      key={`${src}-${idx}`}
+                      className="overflow-hidden rounded-2xl border border-[#e5e5e5] bg-white shadow-sm"
+                    >
+                      <div className="relative h-64 w-full">
+                        <Image
+                          src={src}
+                          alt={`Reference image ${idx + 1}`}
+                          fill
+                          className="object-cover"
+                        />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <p className="text-base text-[#555]">
+                  No reference images available for this product yet.
+                </p>
+              )}
             </motion.div>
           ) : null}
         </AnimatePresence>

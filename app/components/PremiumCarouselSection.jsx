@@ -52,11 +52,11 @@ export default function PremiumCarouselSection({
 
   const isLogoMode = mode === "logo";
   const centerCardClass = isLogoMode
-    ? "border border-white/20 bg-white shadow-[0_20px_55px_rgba(0,0,0,0.45)]"
-    : "bg-white/95 shadow-[0_24px_70px_rgba(0,0,0,0.26)]";
+    ? "rounded-full border border-white/20 bg-white shadow-[0_20px_55px_rgba(0,0,0,0.45)]"
+    : "rounded-2xl bg-white/95 shadow-[0_24px_70px_rgba(0,0,0,0.26)]";
   const sideCardClass = isLogoMode
-    ? "border border-white/20 bg-white/90"
-    : "bg-white/70 backdrop-blur-sm";
+    ? "rounded-full border border-white/20 bg-white/90"
+    : "rounded-2xl bg-white/70 backdrop-blur-sm";
   const imgClass = isLogoMode ? "object-contain p-5" : "object-cover";
 
   return (
@@ -96,7 +96,9 @@ export default function PremiumCarouselSection({
               animate={{ opacity: 0.2, x: 0 }}
               exit={{ opacity: 0, x: -direction * 70 }}
               transition={{ duration: 0.45, ease: "easeInOut" }}
-              className={`absolute left-1/2 top-1/2 h-[320px] w-[250px] -translate-x-[205%] -translate-y-1/2 scale-90 overflow-hidden rounded-2xl blur-[2px] ${sideCardClass}`}
+              className={`absolute left-1/2 top-1/2 ${
+                isLogoMode ? "h-[210px] w-[210px]" : "h-[320px] w-[250px]"
+              } -translate-x-[205%] -translate-y-1/2 scale-90 overflow-hidden blur-[2px] ${sideCardClass}`}
             >
               <Image
                 src={safeItems[leftFarIdx]?.src || ""}
@@ -113,7 +115,9 @@ export default function PremiumCarouselSection({
               animate={{ opacity: 0.45, x: 0 }}
               exit={{ opacity: 0, x: -direction * 80 }}
               transition={{ duration: 0.45, ease: "easeInOut" }}
-              className={`absolute left-1/2 top-1/2 h-[380px] w-[320px] -translate-x-[125%] -translate-y-1/2 scale-95 overflow-hidden rounded-2xl blur-[1px] ${sideCardClass}`}
+              className={`absolute left-1/2 top-1/2 ${
+                isLogoMode ? "h-[250px] w-[250px]" : "h-[380px] w-[320px]"
+              } -translate-x-[125%] -translate-y-1/2 scale-95 overflow-hidden blur-[1px] ${sideCardClass}`}
             >
               <Image
                 src={safeItems[leftIdx]?.src || ""}
@@ -131,7 +135,9 @@ export default function PremiumCarouselSection({
               exit={{ opacity: 0, x: -direction * 120, scale: 0.96 }}
               transition={{ duration: 0.5, ease: "easeInOut" }}
               whileHover={{ scale: 1.03, boxShadow: "0 25px 90px rgba(0,0,0,0.35)" }}
-              className={`absolute left-1/2 top-1/2 h-[460px] w-[420px] -translate-x-1/2 -translate-y-1/2 overflow-hidden rounded-2xl ${centerCardClass}`}
+              className={`absolute left-1/2 top-1/2 ${
+                isLogoMode ? "h-[320px] w-[320px]" : "h-[460px] w-[420px]"
+              } -translate-x-1/2 -translate-y-1/2 overflow-hidden ${centerCardClass}`}
             >
               <Image
                 src={safeItems[active]?.src || ""}
@@ -148,7 +154,9 @@ export default function PremiumCarouselSection({
               animate={{ opacity: 0.45, x: 0 }}
               exit={{ opacity: 0, x: -direction * 80 }}
               transition={{ duration: 0.45, ease: "easeInOut" }}
-              className={`absolute left-1/2 top-1/2 h-[380px] w-[320px] translate-x-[25%] -translate-y-1/2 scale-95 overflow-hidden rounded-2xl blur-[1px] ${sideCardClass}`}
+              className={`absolute left-1/2 top-1/2 ${
+                isLogoMode ? "h-[250px] w-[250px]" : "h-[380px] w-[320px]"
+              } translate-x-[25%] -translate-y-1/2 scale-95 overflow-hidden blur-[1px] ${sideCardClass}`}
             >
               <Image
                 src={safeItems[rightIdx]?.src || ""}
@@ -165,7 +173,9 @@ export default function PremiumCarouselSection({
               animate={{ opacity: 0.2, x: 0 }}
               exit={{ opacity: 0, x: -direction * 70 }}
               transition={{ duration: 0.45, ease: "easeInOut" }}
-              className={`absolute left-1/2 top-1/2 h-[320px] w-[250px] translate-x-[105%] -translate-y-1/2 scale-90 overflow-hidden rounded-2xl blur-[2px] ${sideCardClass}`}
+              className={`absolute left-1/2 top-1/2 ${
+                isLogoMode ? "h-[210px] w-[210px]" : "h-[320px] w-[250px]"
+              } translate-x-[105%] -translate-y-1/2 scale-90 overflow-hidden blur-[2px] ${sideCardClass}`}
             >
               <Image
                 src={safeItems[rightFarIdx]?.src || ""}
@@ -209,7 +219,9 @@ export default function PremiumCarouselSection({
           {/* Mobile side shades */}
           <div className="pointer-events-none absolute inset-0 z-0">
             <div
-              className={`absolute left-0 top-1/2 h-[350px] w-[120px] -translate-y-1/2 -translate-x-1/3 overflow-hidden rounded-2xl opacity-25 blur-[1.5px] ${
+              className={`absolute left-0 top-1/2 ${
+                isLogoMode ? "h-[140px] w-[140px] rounded-full" : "h-[350px] w-[120px] rounded-2xl"
+              } -translate-y-1/2 -translate-x-1/3 overflow-hidden opacity-25 blur-[1.5px] ${
                 isLogoMode ? "border border-white/15 bg-white/70" : "bg-white/60"
               }`}
             >
@@ -223,7 +235,9 @@ export default function PremiumCarouselSection({
               ) : null}
             </div>
             <div
-              className={`absolute right-0 top-1/2 h-[350px] w-[120px] -translate-y-1/2 translate-x-1/3 overflow-hidden rounded-2xl opacity-25 blur-[1.5px] ${
+              className={`absolute right-0 top-1/2 ${
+                isLogoMode ? "h-[140px] w-[140px] rounded-full" : "h-[350px] w-[120px] rounded-2xl"
+              } -translate-y-1/2 translate-x-1/3 overflow-hidden opacity-25 blur-[1.5px] ${
                 isLogoMode ? "border border-white/15 bg-white/70" : "bg-white/60"
               }`}
             >
@@ -251,7 +265,11 @@ export default function PremiumCarouselSection({
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -direction * 40 }}
               transition={{ duration: 0.35, ease: "easeInOut" }}
-              className={`relative z-10 mx-auto h-[420px] w-[88vw] max-w-[340px] overflow-hidden rounded-2xl ${
+              className={`relative z-10 mx-auto ${
+                isLogoMode
+                  ? "h-[250px] w-[250px] max-w-[250px] rounded-full"
+                  : "h-[420px] w-[88vw] max-w-[340px] rounded-2xl"
+              } overflow-hidden ${
                 isLogoMode
                   ? "border border-white/20 bg-white shadow-[0_16px_40px_rgba(0,0,0,0.4)]"
                   : "bg-white shadow-[0_16px_45px_rgba(0,0,0,0.22)]"

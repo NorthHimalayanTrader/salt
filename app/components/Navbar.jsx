@@ -23,7 +23,7 @@ export default function Navbar() {
     <>
       <header className="fixed left-0 right-0 top-0 z-50 bg-black/35 backdrop-blur-md">
         {/* full-width fixed navbar */}
-        <nav className="mx-auto flex w-full max-w-7xl items-center justify-between px-4 py-4 sm:px-6 md:px-10 md:py-5">
+        <nav className="mx-auto flex w-full max-w-7xl items-center justify-between px-3 py-3 sm:px-5 md:px-8 md:py-4">
           <div className="flex items-center gap-3">
             {/* Logo size control:
                 Increase class (e.g. h-20 -> h-24). Decrease class (e.g. h-20 -> h-14). */}

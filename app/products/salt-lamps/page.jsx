@@ -1,7 +1,6 @@
-import { PRODUCTS } from "../productData";
-import ProductTemplate from "../ProductTemplate";
+import ProductShowcasePage from "../ProductShowcasePage";
 
 export default function SaltLampsPage() {
-  return <ProductTemplate product={PRODUCTS["salt-lamps"]} />;
+  return <ProductShowcasePage slug="salt-lamps" />;
 }
 
