@@ -14,6 +14,7 @@ const productMenu = [
   { label: "Himalayan Salt Cooking Plates", href: "/products/cooking-plates" },
   { label: "Himalayan Pink Salt", href: "/products/pink-salt" },
   { label: "Salt Lamps", href: "/products/salt-lamps" },
+  { label: "De-icing Salt", href: "/products/de-icing-salt" },
 ];
 
 export default function Navbar() {
