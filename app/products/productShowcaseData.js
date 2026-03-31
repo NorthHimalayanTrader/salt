@@ -36,10 +36,9 @@ export const PRODUCT_SHOWCASE_DATA = {
       "Support better growth, improved productivity, and overall animal health with our Himalayan Salt Licks for Livestock. A simple, natural, and effective way to ensure your animals receive essential minerals daily. Order now and enhance your farm's productivity naturally!",
     ],
     referenceImages: [
-      "/North%20himaliyan%20salt/natural/idrees%20lamp.png",
-      "/North%20himaliyan%20salt/natural/pink%20salt%20idrees.png",
-      "/North%20himaliyan%20salt/natural/room%20idrees.png",
-      "/North%20himaliyan%20salt/natural/salt%20tiles%20idrees.png",
+      "/North%20himaliyan%20salt/natural/nat11.png",
+      "/North%20himaliyan%20salt/natural/nat22.jpeg",
+      "/North%20himaliyan%20salt/natural/naturalMain.png",
     ],
   },
   "lick-salt-compressed": {
@@ -95,8 +94,9 @@ export const PRODUCT_SHOWCASE_DATA = {
       "Support better growth, improved productivity, and overall animal health with our Himalayan Salt Licks for Livestock. A simple, natural, and effective way to ensure your animals receive essential minerals daily. Order now and enhance your farm's productivity naturally!",
     ],
     referenceImages: [
-      "/North%20himaliyan%20salt/compressed/Gemini_Generated_Image_trecwutrecwutrec.png",
-      "/North%20himaliyan%20salt/compressed/WhatsApp%20Image%202026-03-11%20at%2012.47.50%20PM.jpeg",
+      "/North%20himaliyan%20salt/compressed/com11.png",
+      "/North%20himaliyan%20salt/compressed/com22.png",
+      "/North%20himaliyan%20salt/compressed/compressed.png",
     ],
   },
   "salt-tiles": {
