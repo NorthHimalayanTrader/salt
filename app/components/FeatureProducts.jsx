@@ -57,6 +57,15 @@ const products = [
       "Handcrafted Himalayan Salt Lamps made from natural pink salt crystals that emit a warm, soothing glow.",
     bg: "#FFFCF7",
   },
+  {
+    id: "07",
+    slug: "d-icing-salt",
+    title: "Himalayan D-icing Salt",
+    image: "/North%20himaliyan%20salt/D_icing_salt/d11.png",
+    description:
+      "Himalayan D-icing Salt is a natural, high-performance road salt used for ice and snow melting to improve winter safety on roads, driveways, and walkways.",
+    bg: "#F7F1E7",
+  },
 ];
 
 export default function FeatureProducts() {

@@ -3,7 +3,7 @@ export const PRODUCT_SHOWCASE_DATA = {
     hero: {
       title: "Himalayan Salt Lick",
       subtitle: "(Natural)",
-      image: "/North%20himaliyan%20salt/natural/idrees.png",
+      image: "/North%20himaliyan%20salt/natural/naturalMain.png",
       description:
         "Natural Himalayan Lick Salt is a 100% pure, unrefined mineral salt block sourced from the world-famous Himalayan Salt Range in Pakistan. This premium pink rock salt is rich in essential trace minerals and provides a natural, chemical-free mineral supplement for livestock and farm animals.",
     },
@@ -36,9 +36,11 @@ export const PRODUCT_SHOWCASE_DATA = {
       "Support better growth, improved productivity, and overall animal health with our Himalayan Salt Licks for Livestock. A simple, natural, and effective way to ensure your animals receive essential minerals daily. Order now and enhance your farm's productivity naturally!",
     ],
     referenceImages: [
-      "/North%20himaliyan%20salt/natural/nat11.png",
-      "/North%20himaliyan%20salt/natural/nat22.jpeg",
       "/North%20himaliyan%20salt/natural/naturalMain.png",
+      "/North%20himaliyan%20salt/natural/nat11.png",
+      "/North%20himaliyan%20salt/natural/nat22.png",
+      "/North%20himaliyan%20salt/natural/nat33.png",
+      "/North%20himaliyan%20salt/natural/nat44.png",
     ],
   },
   "lick-salt-compressed": {
@@ -96,7 +98,37 @@ export const PRODUCT_SHOWCASE_DATA = {
     referenceImages: [
       "/North%20himaliyan%20salt/compressed/com11.png",
       "/North%20himaliyan%20salt/compressed/com22.png",
+      "/North%20himaliyan%20salt/compressed/com33.jpg",
       "/North%20himaliyan%20salt/compressed/compressed.png",
+    ],
+  },
+  "d-icing-salt": {
+    hero: {
+      title: "Himalayan",
+      subtitle: "D-icing Salt",
+      image: "/North%20himaliyan%20salt/D_icing_salt/d11.png",
+      description:
+        "Himalayan D-icing Salt is a natural and effective de-icing solution that helps melt snow and ice quickly while improving road and walkway safety in winter.",
+    },
+    attributes: [
+      ["Type", "De-icing Salt", "Form", "Granular / Crushed"],
+      ["Material", "Natural Rock Salt", "Color", "Pink / Brown"],
+      ["Usage", "Road & Pavement De-icing", "Origin", "Pakistan"],
+      ["Application", "Roads, Driveways, Walkways", "Feature", "Fast Ice Melting"],
+      ["Packaging", "Bulk / Bag", "Shelf Life", "Long"],
+    ],
+    descriptionParagraphs: [
+      "Product Description",
+      "Himalayan D-icing Salt is sourced from natural Himalayan rock salt and processed for winter de-icing applications.",
+      "Effective Winter Performance",
+      "It helps break down snow and ice quickly, improving traction and safety on roads, parking areas, and walkways.",
+      "Natural Mineral Composition",
+      "With natural mineral content and strong melting action, it is a dependable solution for municipal and commercial winter maintenance.",
+    ],
+    referenceImages: [
+      "/North%20himaliyan%20salt/D_icing_salt/main.png",
+      "/North%20himaliyan%20salt/D_icing_salt/d11.png",
+      "/North%20himaliyan%20salt/D_icing_salt/d22.png",
     ],
   },
   "salt-tiles": {

@@ -65,5 +65,16 @@ export const PRODUCTS = {
     bg: "#FFFFFF",
     reverse: true,
   },
+  "d-icing-salt": {
+    id: "07",
+    titleLine1: "Himalayan",
+    titleLine2: "D-icing",
+    titleLine3: "Salt",
+    image: "/North%20himaliyan%20salt/D_icing_salt/main.png",
+    description:
+      "Himalayan D-icing Salt is a natural, high-performance salt used to melt snow and ice quickly, helping improve traction and winter safety on roads and walkways.",
+    bg: "#F4E6D1",
+    reverse: false,
+  },
 };
 
