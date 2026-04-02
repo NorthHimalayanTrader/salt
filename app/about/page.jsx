@@ -1,3 +1,17 @@
+import { buildPageMetadata } from "../lib/seo";
+
+export const metadata = buildPageMetadata({
+  title: "About North Himalayan Traders Salt Export Team",
+  description:
+    "Learn about North Himalayan Traders, a Pakistan-based Himalayan salt exporter serving USA, Canada, and global buyers with reliable bulk supply and quality assurance.",
+  path: "/about",
+  keywords: [
+    "about Himalayan salt exporter",
+    "Pakistan bulk salt supplier",
+    "global pink salt distributor",
+  ],
+});
+
 export default function AboutPage() {
   return (
     <main className="min-h-screen bg-white text-black">

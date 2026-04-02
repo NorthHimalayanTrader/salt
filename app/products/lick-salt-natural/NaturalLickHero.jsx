@@ -5,7 +5,7 @@ import HeroGsapReveal from "../../components/animations/HeroGsapReveal";
 export default function NaturalLickHero({
   title = "Himalayan Salt Lick",
   subtitle = "(Natural)",
-  description = "Natural Himalayan Lick Salt is a 100% pure, unrefined mineral salt block sourced from the world-famous Himalayan Salt Range in Pakistan. This premium pink rock salt is rich in essential trace minerals and provides a natural, chemical-free mineral supplement for livestock and farm animals.",
+  description = "Natural Himalayan Salt Lick is a pure mineral salt block sourced from the Himalayan Mountains of Pakistan. Rich in essential 84 traces minerals, it provides a natural and chemical-free mineral supplement for horses, cattle, goats, and other livestock. Ideal for farms, ranches, and animal nutrition.",
   image = "/products/natural.png",
 }) {
   return (

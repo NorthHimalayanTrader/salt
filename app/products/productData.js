@@ -6,7 +6,7 @@ export const PRODUCTS = {
     titleLine3: "(Natural)",
     image: "/products/natural.png",
     description:
-      "Natural Himalayan Lick Salt is a 100% pure, unrefined mineral salt block sourced from the world-famous Khewra Himalayan Salt Range in Pakistan. This premium product acts as an essential natural mineral supplement and provides a rich, chemical-free mineral experience for livestock and farm animals.",
+      "Natural Himalayan Salt Lick is a pure mineral salt block sourced from the Himalayan Mountains of Pakistan. Rich in essential 84 traces minerals, it provides a natural and chemical-free mineral supplement for horses, cattle, goats, and other livestock. Ideal for farms, ranches, and animal nutrition.",
     bg: "#F4E6D1",
     reverse: false,
   },
@@ -17,7 +17,7 @@ export const PRODUCTS = {
     titleLine3: "(Compressed)",
     image: "/products/compressed.png",
     description:
-      "Compressed Himalayan Lick Salt is a tightly-formed mineral salt block made from premium quality rock salt sourced from the historic Himalayan Salt Range. Uniform in structure, this block is mechanically compressed to enhance firmness, making it stronger, longer-lasting, and easier to handle.",
+      "Himalayan Salt Lick (Compressed) is a natural mineral salt block made from pure Himalayan pink salt. Rich in essential minerals, because of its compressed shape it is easy to consume. It provides a long-lasting and chemical-free mineral supplement for livestock such as horses, cattle, goats, and sheep. Ideal for farms and animal nutrition.",
     bg: "#FFFFFF",
     reverse: true,
   },
@@ -72,7 +72,7 @@ export const PRODUCTS = {
     titleLine3: "Salt",
     image: "/North%20himaliyan%20salt/D_icing_salt/main.png",
     description:
-      "Himalayan D-icing Salt is a natural, high-performance salt used to melt snow and ice quickly, helping improve traction and winter safety on roads and walkways.",
+      "Himalayan De-Icing Salt is a natural and effective ice-melting solution made from pure rock salt. It is widely used for clearing snow and ice from roads, driveways, walkways, and industrial areas. Due to its high sodium chloride content and natural composition, it provides fast melting action while being safer for surfaces compared to synthetic chemicals.",
     bg: "#F4E6D1",
     reverse: false,
   },

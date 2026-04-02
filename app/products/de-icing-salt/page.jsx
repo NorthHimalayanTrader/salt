@@ -1,3 +1,17 @@
+import { buildPageMetadata } from "../../lib/seo";
+
+export const metadata = buildPageMetadata({
+  title: "De-Icing Salt Product Updates and Bulk Inquiries",
+  description:
+    "Get the latest de-icing salt product updates and contact our team for bulk road salt supply to USA, Canada, and international buyers.",
+  path: "/products/de-icing-salt",
+  keywords: [
+    "de-icing salt updates",
+    "bulk winter salt inquiries",
+    "road salt exporter contact",
+  ],
+});
+
 export default function DeIcingSaltPage() {
   return (
     <div className="min-h-screen bg-[#f3f3f3] px-6 pb-24 pt-28 sm:pt-32">

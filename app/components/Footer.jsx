@@ -24,8 +24,8 @@ export default function Footer() {
         <div className="space-y-3 text-base">
           <h3 className="font-semibold text-white text-lg">Services</h3>
           <ul className="space-y-2 text-sm text-[#b9d0da]">
-            <li>Himalayan Lick Salt (Natural)</li>
-            <li>Himalayan Lick Salt (Compressed)</li>
+            <li>Himalayan Salt Lick (Natural)</li>
+            <li>Himalayan Salt Lick (Compressed)</li>
             <li>Himalayan Salt Tiles</li>
             <li>Lamps</li>
           </ul>

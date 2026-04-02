@@ -3,6 +3,19 @@ import Link from "next/link";
 import fs from "fs";
 import path from "path";
 import PremiumGallery from "../components/PremiumGallery";
+import { buildPageMetadata } from "../lib/seo";
+
+export const metadata = buildPageMetadata({
+  title: "Himalayan Salt Product Gallery and Export Portfolio",
+  description:
+    "Explore our Himalayan salt gallery featuring edible salt, de-icing salt, salt licks, lamps, and tiles prepared for bulk export to USA and Canada buyers.",
+  path: "/gallery",
+  keywords: [
+    "Himalayan salt gallery",
+    "bulk pink salt products",
+    "salt exporter portfolio",
+  ],
+});
 
 const IMAGE_EXTENSIONS = new Set([".png", ".jpg", ".jpeg", ".webp", ".gif"]);
 

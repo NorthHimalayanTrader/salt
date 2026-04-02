@@ -166,6 +166,7 @@ export default function PremiumGallery({ images, showHeader = true }) {
                 src={safeImages[active].src}
                 alt={safeImages[active].alt ?? `Gallery image ${active + 1}`}
                 fill
+                sizes="(max-width: 1280px) 92vw, 1200px"
                 className="h-full w-full object-contain"
                 priority
               />
@@ -195,6 +196,7 @@ export default function PremiumGallery({ images, showHeader = true }) {
                       src={thumb.src}
                       alt={thumb.alt ?? `Gallery image ${idx + 1}`}
                       fill
+                      sizes="96px"
                       className="h-full w-full object-cover"
                     />
                   </button>

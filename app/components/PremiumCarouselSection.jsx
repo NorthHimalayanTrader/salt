@@ -58,6 +58,15 @@ export default function PremiumCarouselSection({
     ? "rounded-full border border-white/20 bg-white/90"
     : "rounded-2xl bg-white/70 backdrop-blur-sm";
   const imgClass = isLogoMode ? "object-contain p-5" : "object-cover";
+  const farSizes = isLogoMode
+    ? "(min-width: 768px) 210px, 140px"
+    : "(min-width: 768px) 250px, 120px";
+  const sideSizes = isLogoMode
+    ? "(min-width: 768px) 250px, 140px"
+    : "(min-width: 768px) 320px, 120px";
+  const centerSizes = isLogoMode
+    ? "(min-width: 768px) 320px, 250px"
+    : "(min-width: 768px) 420px, 88vw";
 
   return (
     <section
@@ -104,6 +113,7 @@ export default function PremiumCarouselSection({
                 src={safeItems[leftFarIdx]?.src || ""}
                 alt={safeItems[leftFarIdx]?.alt || `${title} item`}
                 fill
+                sizes={farSizes}
                 className={imgClass}
               />
             </motion.div>
@@ -123,6 +133,7 @@ export default function PremiumCarouselSection({
                 src={safeItems[leftIdx]?.src || ""}
                 alt={safeItems[leftIdx]?.alt || `${title} item`}
                 fill
+                sizes={sideSizes}
                 className={imgClass}
               />
             </motion.div>
@@ -143,6 +154,7 @@ export default function PremiumCarouselSection({
                 src={safeItems[active]?.src || ""}
                 alt={safeItems[active]?.alt || `${title} item`}
                 fill
+                sizes={centerSizes}
                 className={imgClass}
               />
             </motion.div>
@@ -162,6 +174,7 @@ export default function PremiumCarouselSection({
                 src={safeItems[rightIdx]?.src || ""}
                 alt={safeItems[rightIdx]?.alt || `${title} item`}
                 fill
+                sizes={sideSizes}
                 className={imgClass}
               />
             </motion.div>
@@ -181,6 +194,7 @@ export default function PremiumCarouselSection({
                 src={safeItems[rightFarIdx]?.src || ""}
                 alt={safeItems[rightFarIdx]?.alt || `${title} item`}
                 fill
+                sizes={farSizes}
                 className={imgClass}
               />
             </motion.div>
@@ -230,6 +244,7 @@ export default function PremiumCarouselSection({
                   src={safeItems[leftIdx].src}
                   alt={safeItems[leftIdx]?.alt || `${title} side`}
                   fill
+                  sizes={sideSizes}
                   className={imgClass}
                 />
               ) : null}
@@ -246,6 +261,7 @@ export default function PremiumCarouselSection({
                   src={safeItems[rightIdx].src}
                   alt={safeItems[rightIdx]?.alt || `${title} side`}
                   fill
+                  sizes={sideSizes}
                   className={imgClass}
                 />
               ) : null}
@@ -279,6 +295,7 @@ export default function PremiumCarouselSection({
                 src={safeItems[active]?.src || ""}
                 alt={safeItems[active]?.alt || `${title} item`}
                 fill
+                sizes={centerSizes}
                 className={imgClass}
               />
             </motion.div>

@@ -9,7 +9,7 @@ const products = [
     title: "himalayan salt lick ( natural )",
     image: "/North%20himaliyan%20salt/natural/naturalMain.png",
     description:
-      "Natural Himalayan Salt Lick  is a 100% pure, unrefined mineral salt block sourced from the world-famous Khewra Himalayan Salt Range in Pakistan. This premium product acts as an essential natural mineral supplement and provides a rich, chemical-free mineral experience for livestock and farm animals.",
+      "Natural Himalayan Salt Lick is a pure mineral salt block sourced from the Himalayan Mountains of Pakistan. Rich in essential 84 traces minerals, it provides a natural and chemical-free mineral supplement for horses, cattle, goats, and other livestock. Ideal for farms, ranches, and animal nutrition.",
     bg: "#F7F1E7",
   },
   {
@@ -18,7 +18,7 @@ const products = [
     title: "himalayan salt lick (compressed )",
     image: "/North%20himaliyan%20salt/compressed/compressed.png",
     description:
-      "Compressed Himalayan Salt lick is a tightly-formed mineral salt block made from premium quality rock salt sourced from the historic Himalayan Salt Range. Uniform in structure, this block is mechanically compressed to enhance firmness, making it stronger, longer-lasting, and easier to handle.",
+      "Himalayan Salt Lick (Compressed) is a natural mineral salt block made from pure Himalayan pink salt. Rich in essential minerals, because of its compressed shape it's easy to consume. It provides a long-lasting and chemical-free mineral supplement for livestock such as horses, cattle, goats, and sheep. Ideal for farms and animal nutrition.",
     bg: "#FFFCF7",
   },
   {
@@ -27,7 +27,7 @@ const products = [
     title: "Himalayan Salt Tiles",
     image: "/North%20himaliyan%20salt/tiles/tiles.png",
     description:
-      "Natural Himalayan Salt Tiles sourced from the Himalayan mountains. These premium salt tiles are widely used for spa walls, salt therapy rooms, wellness centers, and interior decoration.",
+      "Natural Himalayan Salt Tiles sourced from the Himalayan Mountains. These premium salt tiles are widely used for spa walls, salt therapy rooms, wellness centers, and interior decoration. They create a warm, relaxing atmosphere while adding a unique and luxurious touch to modern spaces.",
     bg: "#F7F1E7",
   },
   {
@@ -36,7 +36,7 @@ const products = [
     title: "Himalayan Salt Cooking Plates",
     image: "/North%20himaliyan%20salt/cooking%20plate/cooking%20plate.png",
     description:
-      "Himalayan Cooking Plates are natural gourmet salt slabs made from pure Himalayan pink salt. Perfect for grilling, cooking, chilling, and serving food.",
+      "Himalayan Cooking Plates are natural gourmet salt slabs made from pure Himalayan pink salt. Perfect for grilling, cooking, chilling, and serving food, these plates add a subtle mineral flavor to dishes while providing a unique presentation. Ideal for restaurants, home chefs, and kitchenware retailers looking for premium cooking accessories.",
     bg: "#FFFCF7",
   },
   {
@@ -45,7 +45,7 @@ const products = [
     title: "Himalayan Pink Salt",
     image: "/North%20himaliyan%20salt/pink%20salt/salt.png",
     description:
-      "Himalayan Edible Salt is a pure and natural mineral-rich salt sourced from the Himalayan region of Pakistan.",
+      "Himalayan Edible Salt is a pure and natural mineral-rich salt sourced from the Himalayan region of Pakistan. Known for its natural pink color and essential 84 trace minerals, it is widely used for cooking, seasoning, and healthy food preparation. This unrefined salt is a natural alternative to processed table salt.",
     bg: "#F7F1E7",
   },
   {
@@ -63,7 +63,7 @@ const products = [
     title: "Himalayan D-icing Salt",
     image: "/North%20himaliyan%20salt/D_icing_salt/d11.png",
     description:
-      "Himalayan D-icing Salt is a natural, high-performance road salt used for ice and snow melting to improve winter safety on roads, driveways, and walkways.",
+      "Himalayan De-Icing Salt is a natural and effective ice-melting solution made from pure rock salt. It is widely used for clearing snow and ice from roads, driveways, walkways, and industrial areas. Due to its high sodium chloride content and natural composition, it provides fast melting action while being safer for surfaces compared to synthetic chemicals.",
     bg: "#F7F1E7",
   },
 ];

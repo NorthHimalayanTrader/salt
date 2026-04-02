@@ -10,7 +10,7 @@ const cards = [
     title: "MISSION",
     icon: "/vision mission/mission.png",
     boxImage: "/vision mission/yellow box.png",
-    text: "We deliver authentic, certified salt with transparency, ensuring quality in every shipment while promoting wellness and building long-term partnerships. Our mission is to consistently exceed expectations for purity, traceability, and service, creating sustainable value for our customers and communities.",
+    text: "Our mission is to supply 100% pure and premium Himalayan pink salt products from Pakistan to customers worldwide, ensuring the highest standards of quality, authenticity, and reliability. We are committed to delivering exceptional value and achieving complete customer satisfaction through consistent quality, competitive pricing, and dependable global supply.",
     accentColor: "#F6A623", // warm yellow/orange
   },
   {
@@ -18,7 +18,7 @@ const cards = [
     title: "VISION",
     icon: "/vision mission/vision.png",
     boxImage: "/vision mission/blue box.png",
-    text: "We deliver premium Himalayan salt from Pakistan, ensuring quality, trust, and global access to nature's finest product. Our vision is to be the most trusted global partner for Himalayan salt, recognized for innovation, ethical sourcing, and long-term relationships.",
+    text: "Our vision is to become a global leader in Himalayan pink salt supply, recognized for delivering authentic, premium-quality Himalayan salt products from Pakistan. We aim to build long-term partnerships with businesses worldwide and establish North Himalayan Traders as the preferred and trusted choice for genuine Himalayan pink salt in international markets.",
     accentColor: "#0070C9", // deep blue
   },
 ];
