@@ -12,16 +12,16 @@ export default function Home() {
       <div className="absolute inset-0 bg-black/35" />
 
       {/* Main hero content (logo + text + button) */}
-      <div className="relative z-30 mx-auto flex w-full max-w-7xl flex-col items-start gap-8 px-5 pb-20 pt-28 text-white sm:px-6 md:px-12 md:py-24 lg:px-16">
+      <div className="relative z-30 mx-auto flex w-full max-w-7xl flex-col items-start gap-8 px-5 pb-20 pt-20 text-white sm:px-6 md:px-12 md:py-24 lg:px-16">
         <HeroGsapReveal className="w-full">
           {/* Center logo above heading */}
-          <div data-gsap-hero className="flex w-full items-center justify-center md:justify-start">
+          <div data-gsap-hero className="flex w-full items-center justify-center">
             <Image
               src="/footer/logo white.png"
               alt="North Himalayan Traders logo"
-              width={120}
-              height={120}
-              className="h-20 w-auto sm:h-24"
+              width={180}
+              height={180}
+              className="h-32 w-auto sm:h-40"
             />
           </div>
 

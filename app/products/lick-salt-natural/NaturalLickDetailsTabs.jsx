@@ -77,7 +77,7 @@ export default function NaturalLickDetailsTabs({
 
   return (
     <section className="bg-[#f3f3f3] px-6 pb-16 pt-14 sm:px-10 md:px-14 lg:px-16">
-      <div className="mx-auto w-full max-w-[1600px] rounded-md border-2 border-[#2ea0ff] bg-white p-4 sm:p-6 md:p-8">
+      <div className="mx-auto w-full max-w-[1600px] rounded-md border-2 border-[#FF69B4] bg-white p-4 sm:p-6 md:p-8">
         <div className="flex flex-wrap gap-3 border-b border-[#e3e3e3] pb-4">
           {TABS.map((tab) => {
             const isActive = activeTab === tab;

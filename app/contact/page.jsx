@@ -410,6 +410,67 @@ export default function ContactPage() {
                 </svg>
               </div>
             </div>
+
+            {/* Google Maps Location Buttons */}
+            <div className="mt-6 space-y-3">
+              <p className="text-sm font-semibold text-[#042430]">View Office Locations:</p>
+              {OFFICES.map((office) => (
+                <a
+                  key={office.id}
+                  href={office.googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-between rounded-lg border border-[#C4A265]/30 bg-white px-4 py-3 transition hover:border-[#C4A265] hover:bg-[#C4A265]/5"
+                >
+                  <div className="flex items-center gap-3">
+                    <svg
+                      width="20"
+                      height="20"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="text-[#C4A265]"
+                    >
+                      <path
+                        d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        fill="none"
+                      />
+                      <circle
+                        cx="12"
+                        cy="10"
+                        r="3"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        fill="none"
+                      />
+                    </svg>
+                    <span className="text-sm font-medium text-[#042430]">{office.title}</span>
+                  </div>
+                  <svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="text-[#C4A265]"
+                  >
+                    <path
+                      d="M9 18l6-6-6-6"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       </section>

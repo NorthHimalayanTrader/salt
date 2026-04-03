@@ -6,7 +6,7 @@ const products = [
   {
     id: "01",
     slug: "lick-salt-natural",
-    title: "himalayan salt lick ( natural )",
+    title: "Himalayan Salt Lick\n( Natural )",
     image: "/North%20himaliyan%20salt/natural/naturalMain.png",
     description:
       "Natural Himalayan Salt Lick is a pure mineral salt block sourced from the Himalayan Mountains of Pakistan. Rich in essential 84 traces minerals, it provides a natural and chemical-free mineral supplement for horses, cattle, goats, and other livestock. Ideal for farms, ranches, and animal nutrition.",
@@ -15,8 +15,8 @@ const products = [
   {
     id: "02",
     slug: "lick-salt-compressed",
-    title: "himalayan salt lick (compressed )",
-    image: "/North%20himaliyan%20salt/compressed/compressed.png",
+    title: "Himalayan Salt Lick \n( Compressed )",
+    image: "/North%20himaliyan%20salt/compressed/cowcompressed.png",
     description:
       "Himalayan Salt Lick (Compressed) is a natural mineral salt block made from pure Himalayan pink salt. Rich in essential minerals, because of its compressed shape it's easy to consume. It provides a long-lasting and chemical-free mineral supplement for livestock such as horses, cattle, goats, and sheep. Ideal for farms and animal nutrition.",
     bg: "#FFFCF7",

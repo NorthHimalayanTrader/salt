@@ -47,7 +47,7 @@ export const PRODUCT_SHOWCASE_DATA = {
     hero: {
       title: "Himalayan Salt Lick",
       subtitle: "(Compressed)",
-      image: "/North%20himaliyan%20salt/compressed/compressed.png",
+      image: "/North%20himaliyan%20salt/compressed/cowcompressed.png",
       description:
         "Himalayan Salt Lick (Compressed) is a natural mineral salt block made from pure Himalayan pink salt. Rich in essential minerals, because of its compressed shape it is easy to consume. It provides a long-lasting and chemical-free mineral supplement for livestock such as horses, cattle, goats, and sheep. Ideal for farms and animal nutrition.",
     },
@@ -96,8 +96,8 @@ export const PRODUCT_SHOWCASE_DATA = {
       "Support better growth, improved productivity, and overall animal health with our Himalayan Salt Licks for Livestock. A simple, natural, and effective way to ensure your animals receive essential minerals daily. Order now and enhance your farm's productivity naturally!",
     ],
     referenceImages: [
-      "/North%20himaliyan%20salt/compressed/com11.png",
-      "/North%20himaliyan%20salt/compressed/com22.png",
+      "/North%20himaliyan%20salt/compressed/WhatsApp Image 2026-04-03 at 15.15.45.jpeg",
+      "/North%20himaliyan%20salt/compressed/WhatsApp Image 2026-04-03 at 15.25.04.jpeg",
       "/North%20himaliyan%20salt/compressed/com33.jpg",
       "/North%20himaliyan%20salt/compressed/compressed.png",
     ],
@@ -162,6 +162,7 @@ export const PRODUCT_SHOWCASE_DATA = {
       "/North%20himaliyan%20salt/D_icing_salt/main.png",
       "/North%20himaliyan%20salt/D_icing_salt/d11.png",
       "/North%20himaliyan%20salt/D_icing_salt/d22.png",
+      "/North%20himaliyan%20salt/D_icing_salt/d33.png",
     ],
   },
   "salt-tiles": {
@@ -215,6 +216,8 @@ export const PRODUCT_SHOWCASE_DATA = {
       "/North%20himaliyan%20salt/tiles/Image_fx%20-%202026-03-19T153211.790.png",
       "/North%20himaliyan%20salt/tiles/Image_fx%20-%202026-03-19T153510.725.png",
       "/North%20himaliyan%20salt/tiles/Image_fx%20-%202026-03-19T153517.819.png",
+      "/North%20himaliyan%20salt/tiles/til11.png",
+      "/North%20himaliyan%20salt/tiles/tiles%20stack.jpeg",
     ],
   },
   "cooking-plates": {
@@ -251,7 +254,9 @@ export const PRODUCT_SHOWCASE_DATA = {
       "Versatile Cooking Companion: From grilling and searing to chilling and presenting, this block adapts to many cooking techniques and serving styles.",
     ],
     referenceImages: [
-      "/North%20himaliyan%20salt/cooking%20plate/Gemini_Generated_Image_17coe517coe517co.png",
+      "/North%20himaliyan%20salt/cooking%20plate/cooking%20plate.png",
+      "/North%20himaliyan%20salt/cooking%20plate/cooking1.png",
+      "/North%20himaliyan%20salt/cooking%20plate/cooking2.jpeg",
     ],
   },
   "pink-salt": {
@@ -326,6 +331,7 @@ export const PRODUCT_SHOWCASE_DATA = {
       "/North%20himaliyan%20salt/lamp/Image_fx%20(10).png",
       "/North%20himaliyan%20salt/lamp/Image_fx%20(41).png",
       "/North%20himaliyan%20salt/lamp/Image_fx%20(42).png",
+      "/North%20himaliyan%20salt/lamp/WhatsApp%20Image%202026-04-03%20at%2015.20.13%20(2).jpeg",
     ],
   },
 };

@@ -50,15 +50,20 @@ export default function ProductSection({
         </div>
 
         {/* Text block */}
-        <div className="w-full text-left md:w-[52%] md:text-left">
+        <div className={`w-full text-left md:w-[40%] md:ml-20 ${reverse ? "md:text-right md:mr-20" : "md:text-left md:ml-20"}`}>
           <motion.h3
             initial={{ opacity: 0, y: 16 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 0.55, ease: "easeOut" }}
-            className="max-w-[16ch] text-left text-3xl font-extrabold leading-[1.08] tracking-tight text-[#111111] sm:text-4xl md:text-[52px] md:text-left"
+            className={`text-left text-3xl font-extrabold leading-[1.08] tracking-tight text-[#111111] sm:text-4xl md:text-[52px] ${reverse ? "md:text-right" : "md:text-left"}`}
           >
-            {title}
+            {title.split('\n').map((line, index) => (
+              <span key={index}>
+                {line}
+                {index < title.split('\n').length - 1 && <br />}
+              </span>
+            ))}
           </motion.h3>
 
           <motion.p
@@ -66,7 +71,7 @@ export default function ProductSection({
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 0.55, ease: "easeOut", delay: 0.08 }}
-            className="mt-5 max-w-[64ch] text-left text-sm leading-7 text-[#3f3f3f] sm:text-[15px] md:text-base md:text-left"
+            className={`mt-5 text-left text-sm leading-7 text-[#3f3f3f] sm:text-[15px] md:text-base ${reverse ? "md:text-right" : "md:text-left"}`}
           >
             {description}
           </motion.p>

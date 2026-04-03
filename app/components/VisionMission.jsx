@@ -142,7 +142,7 @@ export default function VisionMission() {
                  - Adjust -bottom-24 to move the base lower under the card. */}
               <div
                 data-vm-box
-                className="pointer-events-none absolute -bottom-30 left-1/2 z-0 h-88 w-[155%] -translate-x-1/2"
+                className="pointer-events-none absolute -bottom-20 md:-bottom-30 left-1/2 z-0 h-60 md:h-88 w-[140%] md:w-[155%] -translate-x-1/2"
               >
                 <Image
                   src={card.boxImage}
@@ -152,7 +152,7 @@ export default function VisionMission() {
                 />
               </div>
 
-              <article className="relative z-20 h-[540px] rounded-3xl bg-white px-9 pb-14 pt-12 text-center shadow-[0_24px_70px_rgba(0,0,0,0.16)]">
+              <article className="relative z-20 h-auto min-h-[400px] md:h-[540px] rounded-3xl bg-white px-6 pb-10 pt-8 md:px-9 md:pb-14 md:pt-12 text-center shadow-[0_24px_70px_rgba(0,0,0,0.16)]">
                 <div className="mb-6 flex justify-center">
                   <Image
                     src={card.icon}
@@ -164,12 +164,12 @@ export default function VisionMission() {
                 </div>
 
                 {/* Heading size: increase text-2xl -> text-3xl to make the title bigger */}
-                <h2 className="mb-5 text-4xl font-semibold tracking-[0.16em] text-[#333333]">
+                <h2 className="mb-4 text-2xl md:text-4xl font-semibold tracking-[0.16em] text-[#333333]">
                   {card.title}
                 </h2>
 
                 {/* Description size: change text-base to text-lg for larger body text */}
-                <p className="mx-auto max-w-sm text-lg leading-relaxed text-[#555555]">
+                <p className="mx-auto max-w-none text-sm md:text-lg md:max-w-sm leading-relaxed text-[#555555]">
                   {card.text}
                 </p>
               </article>
