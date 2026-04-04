@@ -99,7 +99,7 @@ export const PRODUCT_SHOWCASE_DATA = {
       "/North%20himaliyan%20salt/compressed/WhatsApp Image 2026-04-03 at 15.15.45.jpeg",
       "/North%20himaliyan%20salt/compressed/WhatsApp Image 2026-04-03 at 15.25.04.jpeg",
       "/North%20himaliyan%20salt/compressed/com33.jpg",
-      "/North%20himaliyan%20salt/compressed/compressed.png",
+      "/North%20himaliyan%20salt/compressed/compressed123.webp",
     ],
   },
   "d-icing-salt": {
