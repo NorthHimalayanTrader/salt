@@ -14,7 +14,7 @@ export default function ProductTemplate({ product }) {
         >
           {/* Image column */}
           <div className="relative flex-shrink-0">
-            <div className="overflow-hidden rounded-3xl shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
+            <div className="overflow-hidden rounded-3xl">
               <Image
                 src={product.image}
                 alt={`${product.titleLine1} ${product.titleLine2}`}
@@ -26,7 +26,7 @@ export default function ProductTemplate({ product }) {
             </div>
 
             {/* circular index */}
-            <div className="absolute -bottom-8 left-1/2 flex h-14 w-14 -translate-x-1/2 items-center justify-center rounded-full bg-black text-base font-bold text-white shadow-[0_8px_24px_rgba(0,0,0,0.4)]">
+            <div className="absolute -bottom-8 left-1/2 flex h-14 w-14 -translate-x-1/2 items-center justify-center rounded-full bg-black text-base font-bold text-white">
               {product.id}
             </div>
           </div>

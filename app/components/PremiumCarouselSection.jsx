@@ -53,7 +53,7 @@ export default function PremiumCarouselSection({
   const isLogoMode = mode === "logo";
   const centerCardClass = isLogoMode
     ? "rounded-full border border-white/20 bg-white shadow-[0_20px_55px_rgba(0,0,0,0.45)]"
-    : "rounded-2xl bg-white/95 shadow-[0_24px_70px_rgba(0,0,0,0.26)]";
+    : "rounded-2xl bg-white shadow-[0_24px_70px_rgba(0,0,0,0.26)]";
   const sideCardClass = isLogoMode
     ? "rounded-full border border-white/20 bg-white/90"
     : "rounded-2xl bg-white/70 backdrop-blur-sm";
@@ -168,7 +168,7 @@ export default function PremiumCarouselSection({
               transition={{ duration: 0.45, ease: "easeInOut" }}
               className={`absolute left-1/2 top-1/2 ${
                 isLogoMode ? "h-[250px] w-[250px]" : "h-[380px] w-[320px]"
-              } translate-x-[25%] -translate-y-1/2 scale-95 overflow-hidden blur-[1px] ${sideCardClass}`}
+              } translate-x-[35%] -translate-y-1/2 scale-95 overflow-hidden blur-[1px] ${sideCardClass}`}
             >
               <Image
                 src={safeItems[rightIdx]?.src || ""}
@@ -188,7 +188,7 @@ export default function PremiumCarouselSection({
               transition={{ duration: 0.45, ease: "easeInOut" }}
               className={`absolute left-1/2 top-1/2 ${
                 isLogoMode ? "h-[210px] w-[210px]" : "h-[320px] w-[250px]"
-              } translate-x-[105%] -translate-y-1/2 scale-90 overflow-hidden blur-[2px] ${sideCardClass}`}
+              } translate-x-[115%] -translate-y-1/2 scale-90 overflow-hidden blur-[2px] ${sideCardClass}`}
             >
               <Image
                 src={safeItems[rightFarIdx]?.src || ""}
@@ -230,43 +230,6 @@ export default function PremiumCarouselSection({
           onTouchStart={() => setPauseAuto(true)}
           onTouchEnd={() => setPauseAuto(false)}
         >
-          {/* Mobile side shades */}
-          <div className="pointer-events-none absolute inset-0 z-0">
-            <div
-              className={`absolute left-0 top-1/2 ${
-                isLogoMode ? "h-[140px] w-[140px] rounded-full" : "h-[350px] w-[120px] rounded-2xl"
-              } -translate-y-1/2 -translate-x-1/3 overflow-hidden opacity-25 blur-[1.5px] ${
-                isLogoMode ? "border border-white/15 bg-white/70" : "bg-white/60"
-              }`}
-            >
-              {safeItems[leftIdx]?.src ? (
-                <Image
-                  src={safeItems[leftIdx].src}
-                  alt={safeItems[leftIdx]?.alt || `${title} side`}
-                  fill
-                  sizes={sideSizes}
-                  className={imgClass}
-                />
-              ) : null}
-            </div>
-            <div
-              className={`absolute right-0 top-1/2 ${
-                isLogoMode ? "h-[140px] w-[140px] rounded-full" : "h-[350px] w-[120px] rounded-2xl"
-              } -translate-y-1/2 translate-x-1/3 overflow-hidden opacity-25 blur-[1.5px] ${
-                isLogoMode ? "border border-white/15 bg-white/70" : "bg-white/60"
-              }`}
-            >
-              {safeItems[rightIdx]?.src ? (
-                <Image
-                  src={safeItems[rightIdx].src}
-                  alt={safeItems[rightIdx]?.alt || `${title} side`}
-                  fill
-                  sizes={sideSizes}
-                  className={imgClass}
-                />
-              ) : null}
-            </div>
-          </div>
 
           <AnimatePresence mode="wait" initial={false}>
             <motion.div
