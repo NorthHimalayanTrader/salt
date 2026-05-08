@@ -69,7 +69,7 @@ export default function Footer() {
       {/* Bottom bar */}
       <div className="border-t border-white/10 bg-[#052733] py-4">
         <p className="text-center text-xs tracking-wide text-[#92afbb]">
-          © North Himalayan Traders 2026 | All Rights Reserved
+          © North Himalayan Traders 2026 | All Rights Reserved. Develope by: Pics Official
         </p>
       </div>
     </footer>
