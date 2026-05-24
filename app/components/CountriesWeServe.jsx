@@ -42,18 +42,17 @@ export default function CountriesWeServe() {
             {/* TEXT */}
             <div className="relative z-10 block min-h-[260px] w-full px-5 py-8 text-left text-[15px] font-semibold leading-relaxed text-[#222] sm:px-8 sm:text-[16px] md:max-w-[520px] md:px-12 md:py-12 md:text-center md:text-[17px]">
               <p className="mb-5 block">
-                At North Himalayan Traders, we proudly export premium Himalayan
-                pink salt products to customers around the world. With a strong
-                focus on quality and reliable logistics, we serve international
-                wholesalers, distributors, and retailers across multiple global markets.
+               At North Himalayan Traders, we proudly supply premium Himalayan pink salt 
+               products to customers around the world. With a strong focus on quality and 
+               reliable logistics, we serve international wholesalers, distributors, and 
+               retailers across multiple global markets.
               </p>
 
               <p className="block">
-                Our primary export destinations include the United States,
-                Canada, and the United Kingdom, where demand for authentic
-                Himalayan salt products continues to grow. We ensure consistent
-                product quality, secure packaging, and smooth international
-                shipping for our global partners.
+                Our primary export destinations include the United States, Canada, 
+                United Kingdom, Europe and other countries. We ensure consistent 
+                product quality, secure packaging, and smooth international shipping 
+                for our global partners.
               </p>
             </div>
 

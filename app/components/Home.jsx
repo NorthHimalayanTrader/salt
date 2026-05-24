@@ -32,7 +32,7 @@ export default function Home() {
               data-gsap-hero
               className="relative w-full text-[clamp(1.65rem,7.2vw,4rem)] font-extrabold leading-[1.15] tracking-tight"
             >
-              <span className="block text-white">Pure Nature&apos;s Himalayan Pink Salt</span>
+              <span className="block text-white">Nature&apos;s Pure Himalayan Pink Salt</span>
               <span className="mt-1 block text-[#C4A265]">Direct from the Himalayan Mountains</span>
             </h1>
 
@@ -41,11 +41,11 @@ export default function Home() {
               data-gsap-hero
               className="mx-auto mt-6 max-w-3xl text-[15px] leading-relaxed text-[#F3F3F3] sm:text-base md:mx-0 md:mt-8 md:text-[1.12rem]"
             >
-              North Himalayan Traders is a trusted global supplier of 100%
-              natural Himalayan pink salt, ethically sourced from the pristine
-              Himalayan mountains of Pakistan. We specialize in delivering
-              high-quality, authentic salt products to wholesalers, retailers,
-              and distributors worldwide.
+              North Himalayan Traders is a trusted exporter of 100% natural Himalayan 
+              pink salt sourced from the Himalayan mountains of Pakistan. We supply 
+              premium quality salt products including Himalayan Salt Lick, 
+              Himalayan salt tiles, Salt cooking plates, edible salt, salt lamps, and 
+              decorative salt products to wholesalers, retailers across the Globe.
             </p>
 
             {/* Call to action */}

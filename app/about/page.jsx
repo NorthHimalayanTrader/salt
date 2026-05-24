@@ -122,12 +122,9 @@ export default function AboutPage() {
               Supplying authentic Himalayan pink salt, worldwide.
             </h2>
             <p className="mt-4 text-base leading-relaxed text-[#444444] md:text-lg">
-              Our mission is to supply 100% pure and premium Himalayan pink
-              salt products from Pakistan to customers worldwide, ensuring the
-              highest standards of quality, authenticity, and reliability. We
-              are committed to delivering exceptional value and achieving
-              complete customer satisfaction through consistent quality,
-              competitive pricing, and dependable global supply.
+             Our mission is to deliver pure, premium Himalayan pink salt products 
+             globally, with unwavering commitment to quality, reliability, and 
+             customer satisfaction.
             </p>
           </div>
 
@@ -139,12 +136,9 @@ export default function AboutPage() {
               A global benchmark in Himalayan salt supply.
             </h2>
             <p className="mt-4 text-base leading-relaxed text-[#444444] md:text-lg">
-              Our vision is to become a global leader in Himalayan pink salt
-              supply, recognized for delivering authentic, premium-quality
-              Himalayan salt products from Pakistan. We aim to build long-term
-              partnerships with businesses worldwide and establish North
-              Himalayan Traders as the preferred and trusted choice for genuine
-              Himalayan pink salt in international markets.
+              To become a trusted global leader in Himalayan pink salt, fostering 
+              long-term partnerships with businesses worldwide, and positioning 
+              North Himalayan Traders as the top choice for authentic Himalayan salt.
             </p>
           </div>
         </div>
