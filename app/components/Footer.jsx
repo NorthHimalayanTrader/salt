@@ -15,8 +15,7 @@ export default function Footer() {
             />
           </div>
           <p className="text-sm leading-relaxed text-[#b9d0da]">
-            Corporate business typically refers to large-scale mansola it
-            enterprises or organizat
+            
           </p>
         </div>
 
@@ -38,7 +37,7 @@ export default function Footer() {
             <li>Latest News</li>
             <li>Careers</li>
             <li>General Inquiries</li>
-            <li>Case Studies</li>
+            <li> </li>
           </ul>
         </div>
 
@@ -46,7 +45,7 @@ export default function Footer() {
         <div className="max-w-xs space-y-3 text-base">
           <h3 className="font-semibold text-white text-lg">Subscribe Our Newsletter</h3>
           <p className="text-sm leading-relaxed text-[#b9d0da]">
-            Corporate business typically refers to large-scale mansola it.
+           
           </p>
           <div className="flex items-center rounded-full bg-[#021e26] px-4 py-2 text-sm text-[#b9d0da]">
             <input
