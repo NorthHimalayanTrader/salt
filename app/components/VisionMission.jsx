@@ -152,7 +152,7 @@ export default function VisionMission() {
                 />
               </div>
 
-              <article className="relative z-20 h-auto min-h-[400px] md:h-[540px] rounded-3xl bg-white px-6 pb-10 pt-8 md:px-9 md:pb-14 md:pt-12 text-center shadow-[0_24px_70px_rgba(0,0,0,0.16)]">
+              <article className="relative z-20 h-auto min-h-[480px] md:min-h-[620px] rounded-3xl bg-white px-6 pb-10 pt-8 md:px-9 md:pb-14 md:pt-12 text-center shadow-[0_24px_70px_rgba(0,0,0,0.16)]">
                 <div className="mb-6 flex justify-center">
                   <Image
                     src={card.icon}
