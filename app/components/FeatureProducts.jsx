@@ -42,7 +42,7 @@ const products = [
   {
     id: "05",
     slug: "pink-salt",
-    title: "Himalayan Pink Salt",
+    title: "Himalayan Edible Pink Salt",
     image: "/North%20himaliyan%20salt/pink%20salt/salt.png",
     description:
       "Himalayan Edible Salt is a pure and natural mineral-rich salt sourced from the Himalayan region of Pakistan. Known for its natural pink color and essential 84 trace minerals, it is widely used for cooking, seasoning, and healthy food preparation. This unrefined salt is a natural alternative to processed table salt.",
@@ -59,8 +59,17 @@ const products = [
   },
   {
     id: "07",
-    slug: "d-icing-salt",
-    title: "Himalayan D-icing Salt",
+    slug: "Massage Products",
+    title: "Massage Products",
+    image: "/North%20himaliyan%20salt/D_icing_salt/d11.png",
+    description:
+      "Himalayan De-Icing Salt is a natural and effective ice-melting solution made from pure rock salt. It is widely used for clearing snow and ice from roads, driveways, walkways, and industrial areas. Due to its high sodium chloride content and natural composition, it provides fast melting action while being safer for surfaces compared to synthetic chemicals.",
+    bg: "#F7F1E7",
+  },
+   {
+    id: "08",
+    slug: "Home Decor",
+    title: "Home Decor",
     image: "/North%20himaliyan%20salt/D_icing_salt/d11.png",
     description:
       "Himalayan De-Icing Salt is a natural and effective ice-melting solution made from pure rock salt. It is widely used for clearing snow and ice from roads, driveways, walkways, and industrial areas. Due to its high sodium chloride content and natural composition, it provides fast melting action while being safer for surfaces compared to synthetic chemicals.",
@@ -86,7 +95,7 @@ export default function FeatureProducts() {
           description={p.description}
           image={p.image}
           slug={p.slug}
-          reverse={idx % 2 === 1}
+          reverse={idx === 1 ? false : idx % 2 === 1}
           background={p.bg}
         />
       ))}
