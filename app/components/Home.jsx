@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <section
       className="relative flex min-h-screen items-center overflow-hidden bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/home/backgroundNew.png')" }}
+      style={{ backgroundImage: "url('/home/BgImage.png')" }}
     >
       {/* subtle dark overlay for better text readability */}
       <div className="absolute inset-0 bg-black/35" />
