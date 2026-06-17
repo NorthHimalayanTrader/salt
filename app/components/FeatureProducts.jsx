@@ -95,7 +95,7 @@ export default function FeatureProducts() {
           description={p.description}
           image={p.image}
           slug={p.slug}
-          reverse={idx === 1 ? false : idx % 2 === 1}
+          reverse={p.id === "02" ? true : idx % 2 === 1}
           background={p.bg}
         />
       ))}
